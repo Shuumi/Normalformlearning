@@ -125,6 +125,7 @@ class EditingCell extends TableCell<NormalformLearning.Entry, String> {
         }
         
         public String getString() {
+//added in EditingCellExpanding
 //            if(NormalformLearning.getEntry().isColumnCreated(index)){
 //                createdTable = true;
 //            }
@@ -136,7 +137,7 @@ class EditingCell extends TableCell<NormalformLearning.Entry, String> {
 //            }
             return getItem() == null ? "" : getItem().toString();
         }
-        
+//added in EditingCellExpanding
 //        public TableColumn newEditingCell() {
 //            TableColumn Column = new TableColumn("");
 //            Column.setEditable(true);
