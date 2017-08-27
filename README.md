@@ -1,6 +1,7 @@
 # Normalformlearning
 
 Hello fellow programer!
+
 This is a learning program. It's a stump of a program possible to determine in which normal form (up to the 3rd) the given table is.
 I've done it in a little bit of hurry so it is not assured, that you can not break it.
 
